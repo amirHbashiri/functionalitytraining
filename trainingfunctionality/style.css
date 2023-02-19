@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.prevres {
+  font-size: medium;
+  color: black;
+}
+
+.result {
+  font-size: large;
+  color: gray;
+  height: 200px;
+}
+
+.res {
+  background-color: aqua;
+  height: 200px;
+  width: 100%;
+}
